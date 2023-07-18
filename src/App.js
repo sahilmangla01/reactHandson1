@@ -12,7 +12,7 @@ function App() {
     <button onClick={()=> setFState(!fState)} className="Btn1" >To see Styling in Function Component</button>
     <button onClick={()=> setCState(!cState)} className="Btn2">To see Styling in Class Component</button>
     
-    <div >
+    <div className="compo">
     {/* {fState?<FunctionComp/>:""} */}
     {fState && <FunctionComp/>}
     {/* {cState?<ClassComp/>:""} */}

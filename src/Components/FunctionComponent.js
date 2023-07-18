@@ -6,7 +6,7 @@ const FunctionComp =()=>{
         <>
             <div className="functionDiv">
                 <h1>This is created using functional Component</h1>
-                <p className="paraCSS">This is done using external CSS</p>
+                <p className="paraCSSFunc">This is done using external CSS</p>
                 <p style={{color:"blue" , fontSize:"20px", fontWeight:"bold"}}>This is done using inline CSS</p>
             </div>
         </>

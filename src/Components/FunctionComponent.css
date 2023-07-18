@@ -9,7 +9,22 @@
     left: 100px;
 }
 
-.paraCSS{
+.paraCSSFunc{
     font-size:20px;
     font-weight:900
+}
+
+@media only screen and (min-width:350px) and (max-width:500px){
+    .functionDiv{
+        width: 300px;
+        padding: 20px 10px 20px;
+        position: static;
+        display: block;
+        margin-left: 20px;
+    }
+
+  
+    h1{
+        font-size: 25px;
+    }
 }
