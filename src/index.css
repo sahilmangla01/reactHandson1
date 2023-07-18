@@ -46,5 +46,8 @@ button{
     margin: 20px 00px 30px;
     
   }
+  body{
+    height: 95vh;
+  }
  
 }
